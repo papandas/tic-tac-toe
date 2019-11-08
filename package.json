@@ -4,17 +4,26 @@
   "description": "A tic-tac-toe game on Public Blockchain [Ropsten-Test-Network]",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/papandas/tic-tac-toe.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ethereum",
+    "game"
+  ],
+  "author": "Papan Das <hexoindia@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/papandas/tic-tac-toe/issues"
   },
-  "homepage": "https://github.com/papandas/tic-tac-toe#readme"
+  "homepage": "https://github.com/papandas/tic-tac-toe#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "lite-server": "^2.5.4",
+    "truffle-assertions": "^0.9.2"
+  }
 }
